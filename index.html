@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="jsonajaxcall">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--including all the files required css-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>-->
+    <link rel="stylesheet" href="CSS/hbday.css">
+	</head>
+  <body class="bodytag">
+	   <audio style="visibility:hidden;" controls autoplay>
+		  <source src="Audio/song.mp3" type="audio/mpeg">
+		</audio>
+		<div class="cont">
+     <div style="margin-left:250px;" ng-controller="happyController">
+       <div ng-repeat = "pic in pics">
+        <!-- <ajax-call-directive image="image"></ajax-call-directive> -->
+				 <ajax-call-directive pic="pic"></ajax-call-directive> 
+
+       </div>
+     </div>
+		 <br>
+
+		 <div style="margin-top:170px;" ng-controller="birthdayController">
+       <div   ng-repeat = "pic in pics" >
+        <!-- <ajax-call-directive image="image"></ajax-call-directive> -->
+				 <ajax-call-directive pic="pic"></ajax-call-directive>
+
+       </div>
+     </div>
+		 <br>
+
+		 <div style="margin-top:170px;margin-left:480px;" ng-controller="toController">
+       <div ng-repeat = "pic in pics">
+        <!-- <ajax-call-directive image="image"></ajax-call-directive> -->
+				 <ajax-call-directive pic="pic"></ajax-call-directive>
+
+       </div>
+     </div>
+	 </div>
+     <!-- <script src="JS/angular.min.js"></script> -->
+		 <script src="JS/angular.min.js"></script>
+		 <script src="JS/jquery.js"></script>
+     <script src="JS/happybday.js"></script>
+	</body>
+</html>

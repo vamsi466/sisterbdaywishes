@@ -1,0 +1,38 @@
+
+{
+  "photos":
+  [
+    {
+      "picture": "img_06.jpg",
+      "Alphabet": "B"
+    },
+    {
+      "picture": "img_07.jpg",
+      "Alphabet": "I"
+    },
+    {
+      "picture": "img_08.jpg",
+      "Alphabet": "R"
+    },
+    {
+      "picture": "img_09.jpg",
+      "Alphabet": "T"
+    },
+    {
+      "picture": "img_10.jpg",
+      "Alphabet": "H"
+    },
+    {
+      "picture": "img_11.jpg",
+      "Alphabet": "D"
+    },
+    {
+      "picture": "img_12.jpg",
+      "Alphabet": "A"
+    },
+    {
+      "picture": "img_13.jpg",
+      "Alphabet": "Y"
+    }
+  ]
+}
